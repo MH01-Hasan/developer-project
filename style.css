@@ -1,4 +1,161 @@
 *{
+    /* margin-bottom: -1px; */
+    margin: 0;
+    box-sizing: border-box;
+    /* display: flex; */
+}
+body{
     margin: 0;
     padding: 0;
+}
+ header{
+    background-color: #ffff;
+    padding: 28px;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    flex: 0 1 auto;
+   
+}
+.logo a{
+    margin-top: 12px;
+}
+.logo a img{
+    width: 86px;
+    height: 41px;
+    border-radius: 8px;
+    
+}
+
+nav {
+   
+    width: 80%;
+    flex: 0 1 auto;
+    text-align: right;
+    
+}
+nav ul {
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+    overflow: hidden;
+}
+nav ul li {
+    
+    list-style: none;
+    padding: 5px;
+    /* text-decoration: none; */
+}
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    padding-left: 54px;
+    font-size: 19px;
+    font-family: monospace;
+}
+
+
+
+
+
+
+
+
+/* section{
+    background-image: url(image/top-banner.png);
+    display: flex;
+} */
+
+
+
+section{
+
+background-image: u;
+
+width: 900px;
+
+margin: auto;
+
+display: flex;
+
+flex-wrap: wrap;
+
+/* margin-top: 0px; */
+
+background-image: url(image/top-banner.png);
+}
+.heding{
+    width: 65%;
+    margin-top: 128px;
+}
+
+
+.heding h1{
+    font-family: 'Uchen', serif;
+    
+}
+span{
+    
+color: red;
+}
+.heding h4{
+    margin-top: 56px;
+}
+.heding p{
+    margin-top: 18px;
+    text-align: justify;
+    margin-bottom: 21px;
+}
+.heding a{
+
+/* margin-top: 27px; */
+
+text-decoration: none;
+
+color: red;
+
+background: black;
+
+border: 1px solid black;
+
+border-radius: 3px;
+
+/* margin-right: 10px; */
+
+padding: 3px;
+}
+.heding.button{}
+
+
+.picture{
+    width: 30%;
+    flex: 0 1 auto;
+    /* text-align: right; */
+    padding-right: -3px;
+    margin-top: 122px;
+    /* margin-top: 38px; */
+    /* margin-right: -2px; */
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    pading: 0px;
+}
+.picture img{
+    justify-content: center;
+    padding: 30px;
+    border-radius: 62%;
+    width: 220px;
+    /* margin-right: 17px; */
+    flex: 0 1 auto;
 }
